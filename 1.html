@@ -1,0 +1,255 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<button></button>-->
+<!--<span>Result: </span>-->
+<!--<span  id="Result"></span>-->
+<!--<script>-->
+<!--    let C = Number(prompt("Nhap do C"))-->
+<!--    let result = C * 9/5 + 32;-->
+<!--    document.write('F = ' + result);-->
+
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport"-->
+<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title>Document</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    let a = Number(prompt("Nhap canh a"));-->
+<!--    let dienTich = a * 2;-->
+<!--    document.write("Result:" + dienTich);-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport"-->
+<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title>Document</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    let a = Number(prompt("Nhap canh a"));-->
+<!--    let b = Number(prompt("Nhap canh b"));-->
+<!--    let S = a * b;-->
+<!--    document.write("Dien tich hinh chu nhat :" + S);-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport"-->
+<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title>Document</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    let a = Number(prompt("Nhap canh a"));-->
+<!--    let b = Number(prompt("Nhap canh b"));-->
+<!--    let S = (a * b) / 2;-->
+<!--    document.write("Dien tich tam giac vuong :" + S);-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport"-->
+<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title>Document</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    let a,b,x-->
+<!--    a = Number(prompt("Nhap a"))-->
+<!--    b = Number(prompt("Nhap b"))-->
+
+<!--    if (a !== 0) {-->
+<!--        x = b / a;-->
+<!--        document.write("The equation "+ a + "x" + " + " + b + " has a root: " + "x = " + x);-->
+<!--    }-->
+<!--    else if (a === 0) {-->
+<!--        if ( b === 0)-->
+<!--            document.write("The equation "+ a + "x" + " + " + b + " has unlimited roots ");-->
+<!--    }else  document.write("The equation "+ a + "x" + " + " + b + " does have root ");-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport"-->
+<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title>Document</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    let a, b, c, x, delta, x1, x2;-->
+<!--    a =  Number(prompt("Enter number a !== 0:"));-->
+<!--    b =  Number(prompt("Enter number b:"));-->
+<!--    c =  Number(prompt("Enter number c:"));-->
+<!--    let message = "the quadratic equation "+ a + "* x ** 2 + " + b + " * x + " + c +" = 0 has ";-->
+<!--    delta = b**2 - 4 * a * c;-->
+
+<!--    if ( b === c === 0 )-->
+<!--        message += "unlimited roots";-->
+<!--    else {-->
+<!--        if ( delta === 0 ) {-->
+<!--            x = - b / ( 2 * a );-->
+<!--            message += "one root " + x;-->
+<!--        } else if ( delta > 0 ) {-->
+<!--            x1 = (-b + Math.sqrt(delta)) / ( 2 * a );-->
+<!--            x2 = (-b - Math.sqrt(delta)) / ( 2 * a );-->
+<!--            message += " two roots: " + x1 + " + " + x2;-->
+<!--        } else message += "no root"-->
+<!--    }-->
+
+<!--    document.write(message);-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport"-->
+<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title>Document</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    let age = parseFloat(prompt("Enter a number"));-->
+
+<!--    if (isNaN(age))-->
+<!--        document.write(" it is NOT a number");-->
+<!--    else if ( age !== parseInt(age))-->
+<!--        document.write(" it is NOT a integer number");-->
+<!--    else {-->
+<!--        if ( age <= 0 || age >=120)-->
+<!--            document.write(" it is NOT an age number");-->
+<!--        else  document.write(" it is an age number");-->
+<!--    }-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport"-->
+<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title>Document</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    let a = parseFloat(prompt("Nhap canh a"));-->
+<!--    let b = parseFloat(prompt("Nhap canh b"));-->
+<!--    let c = parseFloat(prompt("Nhap canh c"));-->
+<!--    function is3Side() {-->
+<!--        if (a <= 0 | b <= 0 | c <= 0)-->
+<!--            return false;-->
+<!--        else {-->
+<!--            if ( a + b > c) {-->
+<!--                if (b + c > a) {-->
+<!--                    if ( a + c > b)-->
+<!--                        return true;-->
+<!--                }return false;-->
+<!--            }return false;-->
+<!--        }return false;-->
+<!--    }-->
+<!--    if (is3Side()) {-->
+<!--        alert("there are 3 sides of a triangle");-->
+<!--    }else alert("there are not 3 side of a angle");-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport"-->
+<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title>Document</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    let enCo = parseFloat(prompt("Enter your energy consumption: "));-->
+<!--    let priceE = 1000;-->
+
+<!--    if ( enCo > 0 ) {-->
+<!--        if (enCo > 50) {-->
+<!--            if (enCo > 100) {-->
+<!--                if (enCo > 150) {-->
+<!--                    priceE += (enCo - 150) * 900 + 50 * (230 + 480 + 700);-->
+<!--                } else priceE += (enCo - 100) * 700 + 50 * (230 + 480);-->
+<!--            } else priceE += (enCo - 50) * 480 + 50 * 230;-->
+<!--        } else priceE += enCo * 230;-->
+<!--    }-->
+
+<!--    alert("This is your electric price: "+ priceE)-->
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let saLa = parseFloat(prompt("Enter your salary: "));
+    let tax = 1000;
+
+    if ( saLa > 0 ) {
+        if (saLa > 50) {
+            if (saLa > 100) {
+                if (saLa > 150) {
+                    tax += (saLa - 150) * 900 + 50 * (230 + 480 + 700);
+                } else tax += (saLa - 100) * 700 + 50 * (230 + 480);
+            } else tax += (saLa - 50) * 480 + 50 * 230;
+        } else tax += saLa * 230;
+    }
+
+    alert("This is your salary after tax: "+ tax)
+</script>
+</body>
+</html>
